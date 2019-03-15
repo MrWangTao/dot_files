@@ -325,7 +325,7 @@ layers configuration."
 
   (add-hook 'ediff-keymap-setup-hook 'add-d-to-ediff-mode-map)
 
-  (which-key-mode -1)  ;; Disable whick-key-mode by default
+  ;; (which-key-mode -1)  ;; Disable whick-key-mode by default
 
   (setq inf-ruby-console-patterns-alist
         '((".zeus.sock" . zeus)
